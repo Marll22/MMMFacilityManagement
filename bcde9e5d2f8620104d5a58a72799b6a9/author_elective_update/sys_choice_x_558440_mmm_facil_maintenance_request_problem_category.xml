@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="problem_category" table="x_558440_mmm_facil_maintenance_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>problem_category</element>
+            <name>x_558440_mmm_facil_maintenance_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 23:27:03</sys_created_on>
+            <sys_id>6adfea992fc620104d5a58a72799b61b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>problem_category</sys_name>
+            <sys_package display_value="MMM Facility Management" source="x_558440_mmm_facil">bcde9e5d2f8620104d5a58a72799b6a9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MMM Facility Management">bcde9e5d2f8620104d5a58a72799b6a9</sys_scope>
+            <sys_update_name>sys_choice_x_558440_mmm_facil_maintenance_request_problem_category</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 23:27:03</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>problem_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plumbing</label>
+            <language>en</language>
+            <name>x_558440_mmm_facil_maintenance_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 23:27:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22dfea992fc620104d5a58a72799b61b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 23:27:03</sys_updated_on>
+            <value>plumbing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>problem_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Electrical</label>
+            <language>en</language>
+            <name>x_558440_mmm_facil_maintenance_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 23:27:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e2dfea992fc620104d5a58a72799b61d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 23:27:03</sys_updated_on>
+            <value>electrical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>problem_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Water supply</label>
+            <language>en</language>
+            <name>x_558440_mmm_facil_maintenance_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 23:27:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66dfea992fc620104d5a58a72799b61e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 23:27:03</sys_updated_on>
+            <value>water supply</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>problem_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Heater</label>
+            <language>en</language>
+            <name>x_558440_mmm_facil_maintenance_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 23:27:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e6dfea992fc620104d5a58a72799b61f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 23:27:03</sys_updated_on>
+            <value>heater</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>problem_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Air conditioner</label>
+            <language>en</language>
+            <name>x_558440_mmm_facil_maintenance_request</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 23:27:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6adfea992fc620104d5a58a72799b620</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 23:27:03</sys_updated_on>
+            <value>air conditioner</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>problem_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Others</label>
+            <language>en</language>
+            <name>x_558440_mmm_facil_maintenance_request</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 23:27:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eadfea992fc620104d5a58a72799b621</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 23:27:03</sys_updated_on>
+            <value>others</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

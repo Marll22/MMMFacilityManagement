@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="preferred_time" table="x_558440_mmm_facil_maintenance_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>preferred_time</element>
+            <name>x_558440_mmm_facil_maintenance_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 23:27:46</sys_created_on>
+            <sys_id>89007e992fc620104d5a58a72799b61f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>preferred_time</sys_name>
+            <sys_package display_value="MMM Facility Management" source="x_558440_mmm_facil">bcde9e5d2f8620104d5a58a72799b6a9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MMM Facility Management">bcde9e5d2f8620104d5a58a72799b6a9</sys_scope>
+            <sys_update_name>sys_choice_x_558440_mmm_facil_maintenance_request_preferred_time</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 23:27:46</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>preferred_time</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>9am to 12pm</label>
+            <language>en</language>
+            <name>x_558440_mmm_facil_maintenance_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 23:27:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41007e992fc620104d5a58a72799b61f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 23:27:46</sys_updated_on>
+            <value>9am to 12pm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>preferred_time</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2pm to 5pm</label>
+            <language>en</language>
+            <name>x_558440_mmm_facil_maintenance_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 23:27:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05007e992fc620104d5a58a72799b621</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 23:27:46</sys_updated_on>
+            <value>2pm to 5pm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>preferred_time</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_558440_mmm_facil_maintenance_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 23:27:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85007e992fc620104d5a58a72799b622</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 23:27:46</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Maintenance Request" max_length="40" name="x_558440_mmm_facil_maintenance_request" sizeclass="0" type="collection">
+        <element choice="1" label="Permission to enter unit" mandatory="true" max_length="40" name="permission_to_enter_unit" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element choice="1" display="true" label="Preferred time" mandatory="true" max_length="40" name="preferred_time" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="9am to 12pm" sequence="0" value="9am to 12pm"/>
+                <element inactive_on_update="false" label="2pm to 5pm" sequence="1" value="2pm to 5pm"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element choice="1" label="Priority" mandatory="true" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="0" value="high"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="Low" sequence="2" value="low"/>
+            </choice>
+        </element>
+        <element choice="1" label="Problem category" mandatory="true" max_length="40" name="problem_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Plumbing" sequence="0" value="plumbing"/>
+                <element inactive_on_update="false" label="Electrical" sequence="1" value="electrical"/>
+                <element inactive_on_update="false" label="Water supply" sequence="2" value="water supply"/>
+                <element inactive_on_update="false" label="Heater" sequence="3" value="heater"/>
+                <element inactive_on_update="false" label="Air conditioner" sequence="4" value="air conditioner"/>
+                <element inactive_on_update="false" label="Others" sequence="5" value="others"/>
+            </choice>
+        </element>
+        <element label="Problem description" max_length="1000" name="problem_description" type="string"/>
+        <element label="Problem start date" mandatory="true" max_length="40" name="problem_start_date" type="glide_date"/>
+        <element label="Requested date" mandatory="true" max_length="40" name="requested_date" type="glide_date"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Unit number" mandatory="true" max_length="40" name="unit_number" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

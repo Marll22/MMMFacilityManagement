@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="permission_to_enter_unit" table="x_558440_mmm_facil_maintenance_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>permission_to_enter_unit</element>
+            <name>x_558440_mmm_facil_maintenance_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 23:31:19</sys_created_on>
+            <sys_id>5dd076d92fc620104d5a58a72799b654</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>permission_to_enter_unit</sys_name>
+            <sys_package display_value="MMM Facility Management" source="x_558440_mmm_facil">bcde9e5d2f8620104d5a58a72799b6a9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MMM Facility Management">bcde9e5d2f8620104d5a58a72799b6a9</sys_scope>
+            <sys_update_name>sys_choice_x_558440_mmm_facil_maintenance_request_permission_to_enter_unit</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 23:31:19</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>permission_to_enter_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_558440_mmm_facil_maintenance_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 23:31:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15d076d92fc620104d5a58a72799b654</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 23:31:19</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>permission_to_enter_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_558440_mmm_facil_maintenance_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 23:31:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9dd076d92fc620104d5a58a72799b662</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 23:31:19</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>permission_to_enter_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_558440_mmm_facil_maintenance_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 23:31:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11d076d92fc620104d5a58a72799b664</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 23:31:19</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
